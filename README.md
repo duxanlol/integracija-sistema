@@ -14,16 +14,19 @@ RMI deo
 Server prilikom pokretanja registruje udaljeni objekat za slanje poruka na
 lokalnom racunaru na standardnom portu pod imenom "chat". Ovaj objekat
 implementira dati udaljeni interfejs:
-
+```
 interface ChatServer {
 	public void sendMessage(String name, String message);
 	public void addListener(ChatListener listener);
 	public void removeListener(ChatListener listener);
 }
+```
 
+```
 interface ChatListener {
 	public void receiveMessage(String name, String message);
 }
+```
 
 Server podrzava vise klijentskih konekcija i svi povezani korisnici se nalaze u
 istoj sobi za caskanje. Takodje, svi korisnici vide sve poslate poruke, nije
