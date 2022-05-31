@@ -55,7 +55,8 @@ onom korisniku koji je inicirao operaciju.
 
 XML dokument koji se koristi za skladistenje neprikladnih reci zadovoljava
 sledeci DTD:
-
+```
 <!--ELEMENT lista (rec*) -->
 <!--ELEMENT rec (#PCDATA) -->
 <!--ATTLIST rec nadimak CDATA #REQUIRED-->
+```
