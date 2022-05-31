@@ -92,7 +92,7 @@ public class CensorDOM {
 	    }
 	}
 	
-    private void saveDocument() { //Save cuva kao UTF-16 a cita kao UTF-8 i tu puca. 
+    private void saveDocument() { 
         try {
 
             // Get a registry
