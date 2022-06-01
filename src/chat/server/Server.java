@@ -40,7 +40,7 @@ public class Server extends UnicastRemoteObject implements ChatServer{
 		try {
 			Server server = new Server();
 			Naming.rebind(name, server);
-	        server.censor = new CensorDOM();
+	        	server.censor = new CensorDOM();
 		} catch (RemoteException re) {
 			System.err.println("Collector RemoteException: " + re.getMessage());
 			re.printStackTrace();
