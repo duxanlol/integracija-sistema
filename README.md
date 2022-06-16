@@ -63,3 +63,8 @@ sledeci DTD:
 <!--ELEMENT rec (#PCDATA) -->
 <!--ATTLIST rec nadimak CDATA #REQUIRED-->
 ```
+
+Još rešenja
+------------
+
+![Miloš Marić](https://github.com/momcilol/Chat)
